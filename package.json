@@ -1,0 +1,17 @@
+{
+  "name": "react-native-superview",
+  "version": "1.0.0",
+  "description": "Super view",
+  "main": "src/index.js",
+  "repository": "https://github.com/ribsonr/super-view.git",
+  "author": "Ribson Roy",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "pod install --project-directory=ios"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {}
+}
