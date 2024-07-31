@@ -1,10 +1,10 @@
 #import <React/RCTViewManager.h>
 #import "react_native_superview-Swift.h" // Ensure this matches your project name
 
-@interface RNTViewManager : RCTViewManager
+@interface RNTSuperViewManager : RCTViewManager
 @end
 
-@implementation RNTViewManager
+@implementation RNTSuperViewManager
 
 RCT_EXPORT_MODULE(RNTView)
 
